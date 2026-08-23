@@ -1,15 +1,16 @@
 /* Add CSS Styling */
 
-#firstElement {
+.firstElement {
     background-color: black;
     color: rgb(255, 255, 255)
 }
 
-#secondElement {
+.secondElement {
     background-color: yellow;
 }
 
-.fontSize {
+.firstElement,
+.secondElement {
     font-size: 26px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
